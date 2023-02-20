@@ -67,6 +67,7 @@ header button a{
     align-items: center;
 }
 .body1 h1{
+  padding-top:10px;
   font-size: 22px;
   text-align: center;
   bottom:530px;
