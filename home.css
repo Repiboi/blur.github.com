@@ -8,6 +8,8 @@ body{
     padding-top: 10vh;
 }
 header{
+    display:flex;
+    flex-direction:row;
     width: 100%;
     height: 10%;
     background-color:white;
