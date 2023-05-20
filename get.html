@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get started with BLuR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="get.css">
 </head>
 <body>
@@ -24,21 +25,17 @@
 
 <div class="card">
     <h2>Sign up</h2>
-    <input type="email" placeholder="Gmail"><br>
-    <input type="password" placeholder="Password"><br>
-    <button type="submit"><b>SUBMIT</b></button>\
-    <p>or</p>
-    <div class="dropdown" ">
-        <button class="dropbtn">
-           <b>Already have an account</b>
-        </button>
-        <div class="dropctn">
-            <h2>Sign in</h2>
-            <input type="email" placeholder="Gmail"><br>
-            <input type="password" placeholder="Password"><br>
-            <button type="reset" onclick="wrong()" ><b>SUBMIT</b></button>
-        </div>
-   </div>
+    <input type="email" id="Username" placeholder="Gmail"><br>
+    <input type="password" id="Password" placeholder="Enter password"><br>
+    <input type="password" id="Password" placeholder="Confirm password"><br>
+    <button type="submit">SUBMIT</button>
+    <div class="icon">
+       <a href=""><i class="fab fa-google "></i></a> 
+       <a href=""> <i class="fab fa-github "></i></a>
+       <a href=""> <i class="fab fa-discord "></i></a>
+    </div>
+    <strong>Already have an account? <a href="login.html">Sign-in</a></strong>
+ 
 </div>  
 </body>
 <script  src="script.js"></script>        
