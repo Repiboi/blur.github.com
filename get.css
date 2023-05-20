@@ -1,4 +1,3 @@
-@import "{{ site.theme }}";
 * {
     padding: 0;
     box-sizing: border-box;
@@ -15,11 +14,12 @@ body{
     border: 2px solid lightblue;
     margin-left: 90%;
     margin-top: 2px;
-}
-.button a{
     color:black;
     text-decoration: none;
     font-style: italic;
+}
+.button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .header{
     display: inline-block;
@@ -39,9 +39,9 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     animation: typing;
-    animation-duration:3s;
+    animation-duration: 3s;
     animation-timing-function: steps(30, end);
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
   }
   
   @keyframes typing {
@@ -97,48 +97,29 @@ input::placeholder{
     border-radius: 5px;
     border: 2px solid lightblue;
 }
-.dropdown{
-    overflow: hidden;
+.card strong a{
+    text-align: center;
+    color: rgb(0, 195, 255);
 }
+.card strong {
+    margin:0 20px 40px 100px; 
+    text-align: center;
+}
+.dropdown{
+    overflow: hidden;}
 .card p{
     text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
-.dropdown .dropbtn{
-    align-content: center;
-    margin-left: 130px;
+.icon{
     margin-top: 20px;
-    width: 10vw;
-    height: 5vh;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    border: 2px solid lightblue;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-.dropctn{
-    display: none;
-    position:absolute;
-    width: 30vw;
-    background-color:white;
-    min-width: 200px;
-    border-radius: 10px;
-    border: 2px solid lightblue;
-}
-.dropctn a{
-    float: none;
+.icon a{
     color: black;
-    padding: 12px 1px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropctn a:hover, .dropctn:hover.a{
-    background-color:whitesmoke;
-    color: blue;
-}
-.dropdown:hover .dropctn{
-    display:block;
+    margin: 10px;
+    font-size: 20px;
 }
