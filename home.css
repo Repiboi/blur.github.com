@@ -271,10 +271,6 @@ color:rgb(101, 195, 226) ;
     background: white;
 }
 @media screen  and (max-width: 800px){
-  body{
-    display: flex;                                            
-    flex-direction: row;
-  }
   header{
     font-size: xx-small;
     display: none;
