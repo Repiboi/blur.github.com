@@ -32,22 +32,21 @@ body{
 h1{
     color: white;
     font-size: 100px;
-    border-right: .1em solid black;
-  width: 13.20ch;
-  margin: 2em 2em;
-  white-space: nowrap;
-  overflow: hidden;
-  -webkit-animation: typing 5s steps(13, end),
-	           blink-caret .5s step-end infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    animation: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards; 
   }
   
   @keyframes typing {
     from { width: 0 }
-}
-@keyframes blink-caret {
-  50% {
-    border-color: transparent;
-  }
+    to { width: 100% }
 }
 h1::first-letter{
     color: rgb(101, 195, 226);
