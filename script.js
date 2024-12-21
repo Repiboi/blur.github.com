@@ -23,7 +23,7 @@ function next(){
       const user = document.getElementById("Username").value.toUpperCase();
       const pass = document.getElementById("Password").value;
   
-      if(pass != 123){
+      if(pass != 1234){
         alert("Incorect directories");
 
        }else{
