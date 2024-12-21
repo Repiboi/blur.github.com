@@ -1,7 +1,7 @@
 //adding an alert function
 function fun(Name) {
 
-   alert ("NOTE: Once you sign in as a guest, No data is beign saved, So all data would be deleted after all.");
+   alert ("NOTE: Once you sign in as a guest, No data is being saved, So all data will be deleted after all.");
     window.location.href="index.html"
  }
  function wrong(){
@@ -23,12 +23,12 @@ function next(){
       const user = document.getElementById("Username").value.toUpperCase();
       const pass = document.getElementById("Password").value;
   
-      if(pass === 123){
-        window.location.href="index.html"
+      if(pass != 123){
+        alert("Incorect directories");
 
        }else{
 
-      alert("Incorect directories");
+      window.location.href="index.html"
  }
 
  }
